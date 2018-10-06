@@ -1,0 +1,37 @@
+/* Selector name	What does it select	Example
+Element selector (sometimes called a tag or type selector)	All HTML element(s) of the specified type.	p
+Selects <p>
+ID selector	The element on the page with the specified ID. On a given HTML page, you're only allowed one element per ID (and of course one ID per element).	#my-id
+Selects <p id="my-id"> or <a id="my-id">
+Class selector	The element(s) on the page with the specified class (multiple class instances can appear on a page).	.my-class
+Selects <p class="my-class"> and <a class="my-class">
+Attribute selector	The element(s) on the page with the specified attribute.	img[src]
+Selects <img src="myimage.png"> but not <img>
+Pseudo-class selector	The specified element(s), but only when in the specified state, e.g. being hovered over. 
+a: Selects <a>, but only when the mouse pointer is hovering over the link.*/
+<p> You can view more styles selectors on <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Selectors">MDN</a></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/What_will_your_website_look_like#Font">Google Fonts</a> is a good site when picking fonts.</p>
+<p>Storing files. You should have the following folders for each project:</p>
+<dl>
+    <dt>index:<dt>
+    <dd>Contains your homepage content. Such as the text and images on your site.<br />
+        <em>index.html</em></dd>
+    <dt>images:</dt>
+        <dd>Contains all the images that you use on your site<br />
+            <em>imgaes</em></dd>
+    <dt>styles:</dt>
+        <dd>Contains the CSS code used to style your content. Such as setting text and background colors.<br />
+            <em>styles.css</em></dd>
+    <dt>scripts:</dt>
+        <dd>Contains all the JavaScript code that will add interactive functionality to the side<br />
+            <em>scripts.js</em></dd>
+</dl>
+
+
+p { 
+    background-color: 8ABB55; 
+}
+
+.highlight {
+    background-color: #ee3;
+}
